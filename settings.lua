@@ -7,8 +7,21 @@ possible values of THEME
     yellow  dark      yellow light
     purple dark       purple light
     cyan  dark        cyan light
+    (added by RoxNoAnne)
+    TBA : 
+    (nordic red dark	      nordic orange dark
+    nordic green dark	      nordic purple dark
+    nordic frost dark
+
+    nordic red light	      nordic orange light
+    nordic green light	      nordic purple light
+    nordic frost light)
+
+    nordic monochrome dark
+    
+    nordic monochrome light
 ]]
-THEME = "blue dark"     -- choose one of the above
+THEME = "nordic monochrome dark"     -- choose one of the above
 
 --[[
 waiting time before starting conky
@@ -162,7 +175,20 @@ elseif THEME == "gruvbox light" then
     color3 = 0xd65D0E   -- foreground modifier: warning color
     color4 = 0xcc241D   -- foreground modifier: critical color
     color5 = 0x282828   -- text color
-
+elseif THEME == "nordic monochrome dark" then
+    color0 = 0x434C5E   -- background of widgets
+    color1 = 0xD8DEE9   -- foreground of widgets (main color of progression bars)
+    color2 = 0x2E3440   -- second color
+    color3 = color1     -- foreground modifier: warning color
+    color4 = 0xBF616A   -- foreground modifier: critical color
+    color5 = 0xD8DEE9   -- text color
+elseif THEME == "nordic monochrome light" then
+    color0 = 0xD8DEE9   -- background of widgets
+    color1 = 0x434C5E   -- foreground of widgets (main color of progression bars)
+    color2 = 0xD8DEE9   -- second color
+    color3 = color1     -- foreground modifier: warning color
+    color4 = 0xBF616A   -- foreground modifier: critical color
+    color5 = 0x2E3440   -- text color
 else
     color0 = nil        -- background of widgets
     color1 = nil        -- foreground of widgets (main color of progression bars)
