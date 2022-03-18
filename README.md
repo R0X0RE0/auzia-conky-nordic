@@ -14,6 +14,11 @@ Auzia is a conky theme that displays system resources usage in rings.
 
 ![blue dark](.github/blue_dark.jpg)
 
+
+##### nordic monochrome dark
+
+![nordic_monochrome_light](.github/nordic_monochrome_dark.png)
+
 ***
 
 ### For light themes
@@ -27,6 +32,10 @@ Auzia is a conky theme that displays system resources usage in rings.
 
 ![blue light](.github/blue_light.jpg)
 
+
+##### nordic monochrome light
+
+![nordic_monochrome_light](.github/nordic_monochrome_light.png)
 
 
 More colors schemes are available. Choose a color from the `settings.lua` file and restart conky to take effect.
