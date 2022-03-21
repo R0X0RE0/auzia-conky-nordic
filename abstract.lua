@@ -380,7 +380,7 @@ local function init_battery()
             battery_percent = function() 
                 local b0 = tonumber(battery1_percent())
                 local b1 = tonumber(battery2_percent())
-                return math.floor((b0 + b1)/2)
+                return math.floor((b0 + b1))
             end
 
             discharging_battery = function() 
